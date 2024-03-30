@@ -80,7 +80,7 @@ function loadImages() {
     img.onload = function() {
       ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
       ctx.fillStyle = 'white';
-      ctx.font = '16px Arial';
+      ctx.font = '25px Arial';
       ctx.textAlign = 'center';
       ctx.fillText(texts[index], canvas.width / 2, canvas.height - 20);
     };
