@@ -9,7 +9,7 @@ font-family: "Arial", sans-serif;
 .container { justify-content: space-between; } }
 .navbar a{ text-decoration: none; color: azure;} 
 
-.navbar { position: relative; /* Ensure proper positioning of menu and hamburger button */ display: flex; justify-content: space-between; align-items: center; background-image: url('bg.webp');/* background-color: #333 */; color: white; padding: 10px; }
+.navbar { position: relative; /* Ensure proper positioning of menu and hamburger button */ display: flex; justify-content: space-between; align-items: center;  background-color: #333; color: white; padding: 10px; }
 
 
 .navbar-brand { font-weight: bold; }
@@ -94,7 +94,6 @@ footer { background-color: #333; color: #fff; padding: 20px 0; text-align: cente
     font-size: 24px;
     color: #fff; /* Adjust text color as needed */
 }
-
 
 
 
