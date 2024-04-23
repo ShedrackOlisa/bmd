@@ -178,3 +178,38 @@ footer {
   .social-icons li a:hover {
     color: #ccc;
   }
+
+
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photo-grid img {
+    width: calc(33.33% - 4px); /* Adjust based on desired spacing */
+    margin-bottom: 4px; /* Vertical spacing between rows */
+}
+
+@media (max-width: 768px) {
+    .photo-grid img {
+        width: calc(100% - 4px); /* Full width on mobile */
+    }
+}
+
+
+
+
+li a:hover{
+  color: blue;
+  font-weight: bolder;
+}
