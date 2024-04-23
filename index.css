@@ -64,7 +64,7 @@ body {
 
  .hamburger {
      position: absolute; /* Position the hamburger button */
-     top: 8px; /* Adjust top position */
+     top: 1px; /* Adjust top position */
      right: 15px; /* Align it to the right */
      background: none;
      border: none;
