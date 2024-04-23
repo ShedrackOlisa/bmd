@@ -64,12 +64,12 @@ body {
 
  .hamburger {
      position: absolute; /* Position the hamburger button */
-     top: 15px; /* Adjust top position */
+     top: 23px; /* Adjust top position */
      right: 15px; /* Align it to the right */
      background: none;
      border: none;
      color: white;
-     font-size: 28px;
+     font-size: 20px;
      cursor: pointer;
  }
 
